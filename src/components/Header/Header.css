@@ -1,0 +1,192 @@
+#header {
+  /* position: absolute; */
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#header .container-fluid {
+  display: flex;
+  max-width: none;
+}
+
+#header-left {
+  flex: 1 1 20%;
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+#logo {
+  margin: 0;
+  width: 100%;
+}
+
+#logo h1 {
+  margin: 0;
+  line-height: 1;
+  font-size: initial;
+}
+
+#header #logo a {
+  display: inline-block;
+}
+
+#header-right {
+  flex: 1 1 80%;
+  position: relative;
+  text-align: right;
+}
+
+#top-bar {
+  display: flex;
+  margin-bottom: 0.25rem;
+  margin-top: 1.25rem;
+  margin-right: 2.75rem;
+  font-size: 1rem;
+}
+
+#top-bar #search {
+  box-sizing: border-box;
+}
+
+#top-bar form {
+  flex: 1 1 auto;
+  margin-right: 0.25em;
+}
+
+#top-bar input:not(:focus) {
+  /* border-color: transparent; */
+  border-color: #fff;
+  border-right-color: transparent;
+}
+
+#top-bar #query {
+  width: 75%;
+  max-width: 600px;
+  display: inline-block;
+  height: 36px;
+  border-radius: 0px;
+}
+
+#top-bar button {
+  min-width: 2rem;
+  height: 36px;
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  border-radius: 0;
+  transition: all 0.2s ease-in-out;
+  margin-left: -0.15em;
+}
+
+#query-search {
+  float: right;
+  border: none;
+  color: #333;
+  background-color: #fff;
+  padding: 6px 12px;
+}
+
+#query-search img {
+  width: 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.form-control {
+  color: #333;
+}
+
+#top-bar button#text-decrease,
+#top-bar button#text-increase {
+  background-size: 100% auto;
+  background-position-x: 7px;
+  background-position-y: 13px;
+}
+
+#text-decrease,
+#text-increase {
+  flex: 0 0 2rem;
+  padding: 0;
+}
+
+#text-increase {
+  margin: 0 0.25rem;
+}
+
+#text-decrease {
+  margin-right: 0.25rem;
+}
+
+i#i-text-increase,
+i#i-text-decrease {
+  font-style: normal;
+}
+
+#want-to {
+  font-size: 1.25rem;
+  line-height: 1rem;
+  border: 0px;
+  text-align: center;
+  margin: 0px 0px 0px 17px !important;
+  background-image: url(https://www.toronto.ca/wp-content/themes/cot/img/icon-arrow-down.png);
+  background-size: 18px !important;
+  flex: 0 1 210px;
+  font-weight: 500;
+  padding-right: calc(24px + 1.125em);
+  background-position: right 12px center;
+  color: #000;
+  background-color: #ec9f09;
+}
+
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.btn-default:hover {
+  color: #333;
+  background-color: #e6e6e6 !important;
+}
+
+#main-nav-container {
+  min-height: 61px;
+}
+
+#main-nav {
+  display: block !important;
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.1;
+  text-align: left;
+}
+
+#main-nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#main-nav li {
+  flex: 1 1 auto;
+  overflow: hidden;
+  text-shadow: 0.125em 0.125em 0 rgb(0 0 0 / 20%);
+}
+
+#main-nav a {
+  text-decoration: none;
+  text-shadow: inherit;
+}
+
+#main-nav span {
+  display: block;
+  padding: 1rem;
+  color: #fff;
+  cursor: pointer;
+}
